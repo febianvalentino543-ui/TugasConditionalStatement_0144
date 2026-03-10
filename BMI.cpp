@@ -26,3 +26,10 @@ string statusBMI(float BMI) {
         return "Obesitas";
 }
 
+int main() {
+    float berat, tinggi, BMI;
+    string status;
+
+    cout << endl;
+    cout << "--- Selamat Datang Mahasiswa Kelas A 2025 ---" << endl;
+
