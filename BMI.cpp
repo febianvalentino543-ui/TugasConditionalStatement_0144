@@ -14,3 +14,15 @@ float MenghitungBMI(float berat, float tinggi) {
     return berat / (tinggi * tinggi);
 }
 
+// Fungsi untuk menentukan status BMI
+string statusBMI(float BMI) {
+    if (BMI < 18.5)
+        return "Berat Badan Kurang";
+    else if (BMI < 25)
+        return "Berat Badan Normal";
+    else if (BMI < 30)
+        return "Berat Badan Kelebihan";
+    else
+        return "Obesitas";
+}
+
