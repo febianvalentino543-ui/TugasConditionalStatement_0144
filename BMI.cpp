@@ -36,4 +36,15 @@ int main() {
     // Memanggil prosedur input
     MasukkanData(berat, tinggi);
 
+    // Menghitung BMI
+    BMI = MenghitungBMI(berat, tinggi);
+    status = statusBMI(BMI);
+
+    cout << endl;
+    cout << "--- Hasil ---" << endl;
+    cout << "BMI Anda : " << BMI << endl;
+    cout << "Status   : " << status << endl;
+    cout << endl;
+
+    return 0;
 }
