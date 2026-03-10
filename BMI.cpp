@@ -33,3 +33,7 @@ int main() {
     cout << endl;
     cout << "--- Selamat Datang Mahasiswa Kelas A 2025 ---" << endl;
 
+    // Memanggil prosedur input
+    MasukkanData(berat, tinggi);
+
+}
